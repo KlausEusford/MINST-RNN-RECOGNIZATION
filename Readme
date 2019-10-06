@@ -1,0 +1,12 @@
+This is a project to complete the classification of the mnist dataset with an RNN.
+The API used in this project is the basical API of tensorflow.
+It includs three modules.
+Input data:cited from tensorflow's tourial
+        from tensorflow.examples.tutorials.mnist import input_data
+        mnist=input_data.read_data_sets("You Should Change It to You Own Dir",one_hot=True)
+        #Returned mnist is a object,including mnist.train and mnist.test subobjects which have method next_batch
+
+Reference:including
+    lazy_property:a decorator make the function used like a property of the RNN.
+    reference:a class defines the structure of the network;including input,forward,loss,train,evaluate AND A WRITER.
+main:A test code.
